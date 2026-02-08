@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Day ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Floating Hearts Background Animation -->
+    <div class="hearts-container">
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="card fade-in">
+            <h1 class="title">Hey cutie ❤️</h1>
+            <p class="subtitle">Do you know which special day is today?</p>
+            
+            <!-- Day Selection -->
+            <div class="day-selection">
+                <div class="day-option" data-day="my-birthday">
+                    <span>🎂</span> My Birthday
+                </div>
+                <div class="day-option" data-day="your-birthday">
+                    <span>🎉</span> Your Birthday
+                </div>
+                <div class="day-option" data-day="diwali">
+                    <span>🪔</span> Diwali
+                </div>
+                <div class="day-option" data-day="valentine">
+                    <span>💕</span> Valentine's Day
+                </div>
+                <div class="day-option" data-day="hug-day">
+                    <span>🤗</span> Hug Day
+                </div>
+                <div class="day-option" data-day="kiss-day">
+                    <span>😘</span> Kiss Day
+                </div>
+                <div class="day-option" data-day="chocolate-day">
+                    <span>🍫</span> Chocolate Day
+                </div>
+                <div class="day-option" data-day="propose-day">
+                    <span>💍</span> Propose Day
+                </div>
+                <div class="day-option" data-day="anniversary">
+                    <span>💐</span> Anniversary
+                </div>
+                <div class="day-option" data-day="random-day">
+                    <span>😄</span> Random Normal Day
+                </div>
+            </div>
+
+            <!-- Submit Button -->
+            <button class="submit-btn" id="submitBtn">
+                Submit Answer 💕
+            </button>
+
+            <!-- Wrong Answer Message -->
+            <div class="wrong-message" id="wrongMessage">
+                <p>Wrong 😄</p>
+                <p>But you're getting another chance because you're cute ❤️</p>
+                <p class="try-again">Try again!</p>
+            </div>
+
+            <!-- Success Animation -->
+            <div class="success-animation" id="successAnimation">
+                <div class="success-heart">💖</div>
+                <p class="success-text">Perfect! ✨</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Optional: Uncomment if you don't want to commit your personal photos
+# assets/images/photo*.jpg
+# assets/images/photo*.png
+
+# Optional: Uncomment if you don't want to commit music files
+# assets/music/*
